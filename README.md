@@ -1,6 +1,7 @@
 AFTERCREDİTS
 
 Proje Hakkında
+
 Aftercredits, kullanıcıların dizi dünyasını keşfetmesini ve izleyebilecekleri yeni yapımlar hakkında fikir edinmesini amaçlayan bir web sitesi projesidir.
 
 Bu proje, Ağ Tabanlı Programlama dersi kapsamında geliştirilmektedir.
