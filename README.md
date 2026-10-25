@@ -1,4 +1,5 @@
 AFTERCREDİTS
+
 Proje Hakkında
 Aftercredits, kullanıcıların dizi dünyasını keşfetmesini ve izleyebilecekleri yeni yapımlar hakkında fikir edinmesini amaçlayan bir web sitesi projesidir.
 
@@ -20,6 +21,7 @@ Proje Dosyaları
 
 Video Anlatımı
 Projenin HTML ve CSS yapısını açıkladığım video anlatımına aşağıdaki bağlantıdan ulaşabilirsiniz.
+
 Hafta 1: https://drive.google.com/file/d/1-nJeOyr7yt7ZIZx059TAsHSbOAsGWGYG/view?usp=drive_link
 
 Geliştirme Süreci
