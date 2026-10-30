@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #142D50;
+    color: #E8DDC8;
+}
+
+.ust-menu {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #0D203A;
+}
+
+.ust-menu h1 {
+    color: #E8DDC8;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.ust-menu nav {
+    display: flex;
+    gap: 50px;
+}
+
+.ust-menu nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ust-menu nav a:hover {
+    color: #75B9E7;
+}
+
+
+.one-cikan {
+    width: 100%;
+    max-width: 1350px;
+    height: 500px;
+    margin: 35px auto 60px;
+    padding: 55px;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 18px;
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            to top,
+            rgba(20, 45, 80, 0.65),
+            rgba(20, 45, 80, 0.05)
+        ),
+        linear-gradient(
+            to right,
+            rgba(20, 45, 80, 0.55),
+            rgba(20,45,80,0.15),
+            transparent
+        ),
+        url("img/sherlock-banner.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.one-cikan-icerik {
+    max-width: 450px;
+}
+
+.one-cikan .etiket {
+    color: #e7e9eb;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.one-cikan h2 {
+    color: white;
+    font-size: 46px;
+    margin: 15px 0;
+}
+
+.one-cikan-icerik p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #E1EAF3;
+}
+
+.one-cikan-poster {
+    width: 210px;
+    
+}
+
+.one-cikan-poster img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.incele {
+    display: inline-block;
+    background-color: #75B9E7;
+    color: #142D50;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 13px 25px;
+    margin-top: 15px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+.incele:hover {
+    background-color: white;
+}
+
+.populer {
+    width: 94%;
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 35px 0 60px;
+}
+
+.bolum-basligi {
+    text-align: center;
+}
+
+.bolum-basligi h2 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.bolum-basligi p {
+    color: #C4D5E7;
+    margin-bottom: 30px;
+}
+
+.dizi-kutulari {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px;
+}
+
+.dizi {
+    flex: 1 1 300px;
+    max-width: 280px;
+    background-color: #E9DCC8;
+    color: #202D3D;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.dizi:hover {
+    transform: translateY(-7px);
+}
+
+.dizi img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.kart-icerik {
+    padding: 15px;
+}
+
+.kart-icerik h3 {
+    margin-top: 0;
+}
+
+.kart-icerik p {
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.hakkimizda {
+    background-color: #1c3B61;
+    padding: 55px 50px;
+    text-align: center;
+}
+
+.hakkimizda h2 {
+    font-size: 28px;
+}
+
+.hakkimizda p {
+    max-width: 750px;
+    margin: 20px auto;
+    line-height: 1.8;
+    color: #D5E2EF;
+}
+
+footer {
+    background-color: #0D203A;
+    text-align: center;
+    padding: 20px;
+    color: #C4D5E7;
+}
+
+@media (max-width: 650px) {
+
+    .ust-menu {
+        width: 100%;
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .ust-menu nav {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .ust-menu h1 {
+        font-size: 28px;
+    }
+
+    .one-cikan {
+        width: 94%;
+        min-height: 400px;
+        padding: 35px 25px;
+        gap: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .one-cikan h2 {
+        font-size: 34px;
+    }
+
+    .one-cikan-icerik p {
+        font-size: 14px;
+    }
+
+    .one-cikan-poster {
+        width: 125px;
+    }
+
+    .one-cikan-poster img {
+        height: 190px;
+    }
+
+    .populer {
+        padding: 30px 0;
+    }
+
+    .bolum-basligi h2 {
+        font-size: 25px;
+    }
+
+    .dizi {
+        flex: 1 1 220px;
+        max-width: 100%;
+    }
+
+    .hakkimizda {
+        padding: 40px 25px;
+    }
+
+}
