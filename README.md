@@ -24,6 +24,7 @@ Video Anlatımı
 Projenin HTML ve CSS yapısını açıkladığım video anlatımına aşağıdaki bağlantıdan ulaşabilirsiniz.
 
 Hafta 1: https://drive.google.com/file/d/1aGAty2ggb068MSadv769qeAD8GYNlH5r/view?usp=sharing
+
 Hafta 2: https://drive.google.com/file/d/1AsatoUWhFcSK0NB-QRespE2uMHaj7Pof/view?usp=drive_link
 
 Geliştirme Süreci
