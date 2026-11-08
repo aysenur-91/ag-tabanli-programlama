@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #102943;
+    color: #E8DDC8;
+
+    background-image:
+        linear-gradient(
+            rgba(5, 15, 29, 0.60),
+            rgba(5, 15, 29, 0.80)
+        ),
+        url("img/arka-plan-banner.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ust-menu {
+    width: 100%;
+    min-height: 155px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 85px;
+    background-color: #091A2D;
+    border-bottom: 4px solid #A5BCD6;
+}
+
+.ust-menu h1 {
+    color: #E8DDC8;
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.ust-menu h1 span {
+    color: #FDF0D5;
+}
+
+.ust-menu nav {
+    display: flex;
+    gap: 45px;
+}
+
+.ust-menu nav a {
+    color: #E8DDC8;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 5px;
+    transition: 0.3s;
+}
+
+.ust-menu nav a:hover{
+    color:#A5BCD6;
+}
+.ust-menu nav a.aktif {
+    color: #E8DDC8;
+}
+
+.one-cikan {
+    width: 100%;
+    max-width: 1900px;
+    min-height: 700px;
+    margin: 35px auto 60px;
+    padding: 65px;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 18px;
+    overflow: hidden;
+
+    background-image:
+        linear-gradient(to top, rgba(5, 15, 29, 0.95), transparent 85%),
+        linear-gradient(to right, rgba(5, 15, 29, 0.8), transparent),
+        url("img/ana-sayfa-banner.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.one-cikan-icerik {
+    max-width: 750px;
+}
+
+.etiket {
+    color: #A5BCD6;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.one-cikan h2 {
+    color: #E8DDC8;
+    font-size: 65px;
+    line-height: 1.2;
+    margin: 20px 0;
+}
+
+.one-cikan h2 span {
+    display: block;
+    color: #E8DDC8;
+}
+
+.one-cikan-icerik > p:not(.etiket) {
+    color: #E1EAF3;
+    font-size: 19px;
+    line-height: 1.8;
+    max-width: 650px;
+}
+
+.incele {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 16px 35px;
+    background-color: #A5BCD6;
+    color: #07182B;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.incele:hover {
+    background-color: #E8DDC8;
+    transform: translateY(-4px);
+}
+
+.kesif-bolumu {
+    width: 94%;
+    max-width: 1550px;
+    margin: 0 auto;
+    padding: 90px 0 110px;
+}
+
+.kesif-baslik {
+    text-align: center;
+    max-width: 950px;
+    margin: 0 auto 65px;
+}
+
+.kucuk-baslik {
+    color: #A5BCD6;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.kesif-baslik h2 {
+    color: #E8DDC8;
+    font-size: 55px;
+    line-height: 1.2;
+    margin: 25px 0;
+}
+
+.kesif-baslik h2 span {
+    display: block;
+    color: #E8DDC8;
+}
+
+.kesif-baslik p:last-child {
+    max-width: 750px;
+    margin: 0 auto;
+    color: #C4D5E7;
+    font-size: 19px;
+    line-height: 1.9;
+}
+
+.kesif-kartlari {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.kesif-karti {
+    position: relative;
+    overflow: hidden;
+    min-height: 350px;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    border-radius: 16px;
+
+    background-size: cover;
+    background-position: center;
+
+    transition: 0.3s;
+}
+
+.kart-bir {
+    background-image:
+        linear-gradient(to top, #07182B, transparent 85%),
+        url("img/kesfet.jpeg");
+}
+
+.kart-iki {
+    background-image:
+        linear-gradient(to top, #07182B, transparent 85%),
+        url("img/tanis.jpeg");
+}
+
+.kart-uc {
+    background-image:
+        linear-gradient(to top, #07182B, transparent 85%),
+        url("img/favori.jpeg");
+}
+
+.kesif-karti:hover {
+    transform: translateY(-8px);
+}
+
+.kart-yazi {
+    position: relative;
+    z-index: 2;
+}
+
+.kart-yazi span {
+    color: #A5BCD6;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.kart-yazi h3 {
+    color: white;
+    font-size: 27px;
+    margin: 12px 0;
+}
+
+.kart-yazi p {
+    color: #E1EAF3;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.son-cagri {
+    text-align: center;
+    padding: 85px 20px;
+    margin: 30px auto 80px;
+    background: linear-gradient(135deg, #0D203A, #17395F);
+    border-top: 1px solid rgba(117, 185, 231, 0.3);
+    border-bottom: 1px solid rgba(117, 185, 231, 0.3);
+}
+
+.son-cagri p {
+    color: #A5BCD6;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.son-cagri h2 {
+    color: #E8DDC8;
+    font-size: 42px;
+    margin: 25px 0;
+}
+
+.son-cagri a {
+    display: inline-block;
+    padding: 15px 35px;
+    background-color: #A5BCD6;
+    color: #07182B;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.son-cagri a:hover {
+    background-color: #E8DDC8;
+    transform: translateY(-4px);
+}
+
+.alt-bilgi {
+    text-align: center;
+    padding: 45px 20px;
+    background-color: #091A2D;
+    border-top: 3px solid #A5BCD6;
+}
+
+.alt-bilgi h2 {
+    color: #E8DDC8;
+    font-size: 30px;
+}
+
+.alt-bilgi h2 span {
+    color: #75B9E7;
+}
+
+.alt-bilgi p {
+    color: #C4D5E7;
+    font-size: 15px;
+}
+
+.alt-bilgi .telif {
+    margin-top: 30px;
+    font-size: 13px;
+    color: #8FAAC4;
+}
+
+@media (max-width: 900px) {
+
+    .ust-menu {
+        flex-direction: column;
+        padding: 25px 15px;
+        gap: 20px;
+    }
+
+    .ust-menu nav {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .ust-menu nav a {
+        font-size: 17px;
+    }
+
+    .one-cikan {
+        min-height: 500px;
+        padding: 35px;
+    }
+
+    .one-cikan h2 {
+        font-size: 45px;
+    }
+
+    .kesif-kartlari {
+        grid-template-columns: 1fr;
+    }
+
+    .kesif-karti {
+        min-height: 300px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .ust-menu h1 {
+        font-size: 35px;
+    }
+
+    .one-cikan {
+        min-height: 430px;
+        padding: 25px;
+    }
+
+    .one-cikan h2 {
+        font-size: 36px;
+    }
+
+    .one-cikan-icerik > p:not(.etiket) {
+        font-size: 16px;
+    }
+
+    .kesif-baslik h2 {
+        font-size: 36px;
+    }
+
+    .kesif-baslik p:last-child {
+        font-size: 16px;
+    }
+
+    .son-cagri h2 {
+        font-size: 30px;
+    }
+}
