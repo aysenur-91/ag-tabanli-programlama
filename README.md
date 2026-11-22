@@ -18,7 +18,7 @@ Mevcut Özellikler
 
 Proje Dosyaları
 - `index.html`: Web sayfasının yapısı
-- `stil.css`: Web sayfasının tasarımı
+- `style.css`: Web sayfasının tasarımı
 
 Video Anlatımı
 Projenin HTML ve CSS yapısını açıkladığım video anlatımına aşağıdaki bağlantıdan ulaşabilirsiniz.
