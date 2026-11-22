@@ -29,5 +29,7 @@ Hafta 2: https://drive.google.com/file/d/1AsatoUWhFcSK0NB-QRespE2uMHaj7Pof/view?
 
 Hafta 3: https://drive.google.com/file/d/18FmwmGDpcruXAo4kM--Mjk-FtUmM8IQs/view?usp=drive_link
 
+Hafta 4:
+
 Geliştirme Süreci
 Proje, HTML ve CSS kullanılarak geliştirilmektedir. İlerleyen aşamalarda yeni özellikler ve tasarım iyileştirmeleri eklenmesi planlanmaktadır.
